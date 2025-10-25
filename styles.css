@@ -1,0 +1,42 @@
+/* --- Custom Styles for Portfolio --- */
+html {
+  scroll-behavior: smooth;
+}
+/* Skill Buttons */
+.skill {
+  background-color: #6366f1;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 3px 10px rgba(99, 102, 241, 0.25);
+}
+
+.skill:hover {
+  background-color: #8b5cf6;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(139, 92, 246, 0.35);
+}
+
+/* About Section */
+#about img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#about img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  #about {
+    text-align: center;
+  }
+  #about img {
+    margin-bottom: 20px;
+  }
+}
